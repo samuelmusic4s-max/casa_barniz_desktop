@@ -1,0 +1,2 @@
+class InvalidQuantityStockError(Exception):
+    pass

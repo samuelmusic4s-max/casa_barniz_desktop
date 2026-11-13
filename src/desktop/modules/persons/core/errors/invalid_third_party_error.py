@@ -1,0 +1,2 @@
+class InvalidThirdPartyError(Exception):
+    pass

@@ -1,0 +1,2 @@
+class InvalidPayError(Exception):
+    pass

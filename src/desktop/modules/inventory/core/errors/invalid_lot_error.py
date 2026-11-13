@@ -1,0 +1,2 @@
+class InvalidLotError(Exception):
+    pass

@@ -1,0 +1,2 @@
+class InvalidQuantityMoneyError(Exception):
+    pass

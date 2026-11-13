@@ -1,0 +1,2 @@
+class InvalidPercentageError(Exception):
+    pass

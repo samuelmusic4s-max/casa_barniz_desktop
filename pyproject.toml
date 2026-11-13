@@ -1,0 +1,18 @@
+[project]
+name = "desktop"
+version = "0.1.0"
+description = "Aplicación de escritorio desarrollada en PySide6 que ofrece una base para poder administrar un local de artesanías."
+readme = "README.md"
+authors = [{ name = "Samuel Botina", email = "samuelmusic4s@gmail.com" }]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+desktop = "desktop:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
